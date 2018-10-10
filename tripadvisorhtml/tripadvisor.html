@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pockettripadvisor</title>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Kanit|Roboto+Mono" rel="stylesheet"> 
+<style>
+header{
+	background-image:url("wanderlust2.png");
+	background-color:black;
+	text-align: center;
+	color:	#D4AF37;
+	height:300px;
+	width:auto;
+	display:block;
+	background-repeat: no-repeat;
+	font-family: 'Kanit', sans-serif;
+
+}
+.navbar {
+  overflow: hidden;
+  background-color:black;
+  font-family: 'Kanit', sans-serif;
+}
+.navbar a{
+	float : left;
+	font-size:20px;
+	color:#D4AF37;
+	text-align: center;
+	text-decoration: none;
+}
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+  background-color:black;
+  color:#D4AF37;	
+}
+/* Dropdown button */
+.dropdown1 .dropbtn1 ,.dropdown1 .dropbtn2,.dropdown1 .dropbtn3{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color:#D4AF37 ;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.navbar a:hover, .dropdown1:hover .dropbtn1,.dropdown1:hover .dropbtn2,.dropdown1:hover .dropbtn3 {
+  background-color: white;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content1 a,.dropdown-content2 a,.dropdown-content3 a {
+  float: none;
+  color: #D4AF37;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content1 a:hover ,.dropdown-content2 a:hover,.dropdown-content3 a:hover{
+  background-color: white;
+}
+.dropdown1:hover .dropdown-content1,.dropdown1:hover .dropdown-content2,.dropdown1:hover .dropdown-content3 {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+	<header>
+	<h1>POCKET TRIP ADVISOR</h1> 
+	</header>
+	<div class="navbar">
+		<a href="#home">HOME</a>
+		<div class="dropdown1">
+			<button class="dropbtn1">BUDGETPLAN
+      				<i class="buttonplan"></i>
+    			</button>
+			<div class="dropdown-content1">
+				<a href="#numpeople">Team Size</a>
+      				<a href="#Indbudget">Individual Budget</a>
+			</div>
+			<button class="dropbtn2">TRAVELPLAN
+				<i class="buttonplan"></i>
+    			</button>
+			<div class="dropdown-content2">
+				<a href="#TravelBudget">Travelling Budget</a>
+      				<a href="#Modetravel">Mode of Travel</a>
+			</div>
+			<button class="dropbtn3">STAYPLAN
+				<i class="buttonplan"></i>
+    			</button>
+			<div class="dropdown-content3">
+				<a href="#staybudget">Stay Budget</a>
+      				<a href="#Modetravel">Type of Stay</a>
+			</div>
+		</div>
+	
+	</div>
+</body>
