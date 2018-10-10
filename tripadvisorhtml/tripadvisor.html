@@ -29,14 +29,15 @@ header{
 	text-align: center;
 	text-decoration: none;
 }
-.dropdown1 {
+.dropdown1, .dropdown2 , .dropdown3 {
   float: left;
   overflow: hidden;
   background-color:black;
   color:#D4AF37;	
 }
+
 /* Dropdown button */
-.dropdown1 .dropbtn1 ,.dropdown1 .dropbtn2,.dropdown1 .dropbtn3{
+.dropdown1 .dropbtn1 ,.dropdown2 .dropbtn2,.dropdown3 .dropbtn3{
   font-size: 16px;
   border: none;
   outline: none;
@@ -46,7 +47,7 @@ header{
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
-.navbar a:hover, .dropdown1:hover .dropbtn1,.dropdown1:hover .dropbtn2,.dropdown1:hover .dropbtn3 {
+.navbar a:hover, .dropdown1:hover .dropbtn1,.dropdown2:hover .dropbtn2,.dropdown3:hover .dropbtn3 {
   background-color: white;
 }
 .dropdown-content1 {
@@ -84,7 +85,6 @@ header{
 .dropdown-content1 a:hover ,.dropdown-content2 a:hover,.dropdown-content3 a:hover{
   background-color: white;
 }
-.dropdown1:hover .dropdown-content1,.dropdown1:hover .dropdown-content2,.dropdown1:hover .dropdown-content3 {
   display: block;
 }
 
@@ -104,6 +104,8 @@ header{
 				<a href="#numpeople">Team Size</a>
       				<a href="#Indbudget">Individual Budget</a>
 			</div>
+		</div>
+		<div class="dropdown2">
 			<button class="dropbtn2">TRAVELPLAN
 				<i class="buttonplan"></i>
     			</button>
@@ -111,6 +113,8 @@ header{
 				<a href="#TravelBudget">Travelling Budget</a>
       				<a href="#Modetravel">Mode of Travel</a>
 			</div>
+		</div>
+		<div class="dropdown3">
 			<button class="dropbtn3">STAYPLAN
 				<i class="buttonplan"></i>
     			</button>
